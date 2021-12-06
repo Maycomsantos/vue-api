@@ -1,14 +1,13 @@
 <template>
-        <div>
-            <h1> {{ num }} -{{ name }}</h1>
-            <small>{{ url }}</small>
-        </div>
+<div>
+    <h1> {{ num }} -{{ name }}</h1>
+    <small>{{ url }}</small>    
+
+</div>
 </template>
 
 <script>
-
-
-export default ({   
+export default ({
     props: {
         num: Number,
         name: String,

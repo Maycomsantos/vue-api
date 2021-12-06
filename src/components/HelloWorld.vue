@@ -3,8 +3,7 @@
     <h1>{{ msg }}</h1>
     <p>
      {{ details }}
-    </p>
-    <h3>Installed CLI Plugins</h3>
+    </p>    
     <ul>
       <router-link class="flex justify center text-4xl text-yellow-700" to="/pages/List"></router-link>
     </ul>
